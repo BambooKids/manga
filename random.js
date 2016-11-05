@@ -1,5 +1,3 @@
-<ul id='random-desz'>
-<script type='text/javaScript'>
 var randomdesu_number = 4;
 var randomdesu_chars = 0;
 var randomdesu_details = 'no';
@@ -11,7 +9,3 @@ function random_posts(json) {for (var i = 0; i < randomdesu_number; i++) {var en
 getvalue();for (var i = 0; i < randomdesu_number; i++) {document.write('<script type=\"text/javascript\" src=\"/feeds/posts/default?alt=json-in-script&start-index=' + randomdesu_current[i] + '&max-results=1&callback=random_posts\"><\/script>')};
 $(document).ready(function() {$('#random-desz img').attr('src', function(i, src) {
 return src.replace( 's72-c', 'w145-h185-c' );});});
-</script>
-</ul>
-<div class='clear'/>
-</div>
